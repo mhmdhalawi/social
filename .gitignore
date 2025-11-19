@@ -1,0 +1,37 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+*.test
+
+# Go build output
+/bin/
+/tmp/
+/dist/
+/out/
+/build/
+
+# Go module sum cache
+go.sum
+
+# Vendor (if you use vendoring and don’t want it in git)
+vendor/
+
+# IDE / Editor folders
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment files
+.env
+*.local
